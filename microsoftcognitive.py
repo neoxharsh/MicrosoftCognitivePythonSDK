@@ -52,12 +52,12 @@ class MicrosoftVision:
         return result
 
 
-    def setParameters(self,paramaterlist):
+    def setFeatures(self,paramaterlist):
         __parameterlist =  ','.join(paramaterlist)
         self.__parameters = { 'visualFeatures':__parameterlist}
 
 
-    def getParameters(self):
+    def getFeatures(self):
         return self.__parameters
 
 
