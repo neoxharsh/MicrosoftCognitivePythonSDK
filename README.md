@@ -31,7 +31,6 @@ Then set the visual features that need to be extracted as described by Microsoft
 ```python
 mv.setParameters({mv.VisualFeature.CATEGORIES})
 ```
-Ignore the name Parameter, as that will be changed to Features in future release.
 
 Now get the json object returned by the Cognitive API by passing the image file or URL of the image to jsonRecognizeImageFromFile() or jsonRecognizeImagefromURL() respectively.
 
