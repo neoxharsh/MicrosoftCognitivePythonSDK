@@ -54,3 +54,5 @@ print result
 ```
 
 An example app is also give, just enter the API key provided from Azure Console. 
+
+I am no way connected with Microsoft Corporation. 
