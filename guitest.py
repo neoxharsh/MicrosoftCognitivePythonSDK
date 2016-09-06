@@ -7,7 +7,7 @@ from microsoftcognitive import MicrosoftVision
 from requests import Request
 root = tk.Tk()
 root.withdraw()
-mv = MicrosoftVision('f30f769d21a446fb98f0b12909841f6a',MicrosoftVision.VisualService.ANALYZE)
+mv = MicrosoftVision('',MicrosoftVision.VisualService.ANALYZE)
 
 class GUIApp(QtGui.QMainWindow,untitled1.Ui_MainWindow):
     def __init__(self):
