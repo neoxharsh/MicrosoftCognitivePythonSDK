@@ -6,7 +6,7 @@ import pprint
 
 mv = MicrosoftVision('',MicrosoftVision.VisualService.ANALYZE)
 mv.setParameters({mv.VisualFeature.CATEGORIES})
-result  = mv.jsonRecognizeImageFromFile('https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg')
+result  = mv.jsonRecognizeImageFromURL('https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg')
 
 print result
 
